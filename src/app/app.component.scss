@@ -1,0 +1,94 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+}
+
+form {
+  display: flex;
+  gap: 1rem;
+}
+
+button[type="submit"] {
+  color: #fff;
+  background: #000000;
+  padding: .5rem 1rem;
+  width: min-content;
+  font-family: "Bangers",sans-serif;
+  letter-spacing:.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+input[type=number] {
+  padding: 10px 15px;
+  width: 100%;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+
+button[type="submit"]:active {
+  color: #000000;
+  background: #fff;
+}
+
+button:disabled{
+  opacity: 0.3;
+}
+.bonus-throw {
+  color: darkred;
+}
+.main-content {
+    height: 100%;
+    width: 80vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: turquoise;
+    flex-direction: column;
+    font-size: 2.5rem;
+    gap:2rem;
+    padding:4rem 8rem;
+    font-family: "Bangers",sans-serif ;
+}
+
+.form-section > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.side-panel {
+  width: 20vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: flex-start;
+  background-color: grey;
+  color: #fff;
+  padding: 4rem 4rem;
+  font-family: "Roboto",sans-serif ;
+}
+
+.score-card {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+ul > li {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
