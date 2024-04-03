@@ -1,6 +1,6 @@
 # Bowling Game Project
 
-This project is a simple web application developed using Angular to keep track of bowling scores for a single player.
+This project is a web application developed using Angular to keep track of bowling scores for a single player.
 
 ## Features
 
